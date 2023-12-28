@@ -1,0 +1,2 @@
+panacus histgrowth -t10 -l 1,2,1,1,1 -q 0,0,1,0.5,0.1 -S -s pggb-haplotypes.txt -c all -a -o html PGGB.gfa > PGGB.html
+panacus histgrowth -t10 -l 1,2,1,1,1 -q 0,0,1,0.5,0.1 -S -s MC-haplotypes.txt -c all -a -o html MC.gfa2 > MC.html

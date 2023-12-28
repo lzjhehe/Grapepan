@@ -1,0 +1,6 @@
+nextflow run /nf-core-pangenome_dev/dev/ \
+    --input /data/pangenome/PGGB/in.fa.gz \
+    --n_haplotypes 29 \
+    --outdir /data/pangenome/PGGB \
+    --communities \
+    -profile singularity -resume

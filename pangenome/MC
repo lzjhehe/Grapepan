@@ -1,0 +1,3 @@
+rm -r js/
+cactus-pangenome ./js ./fa.txt --outDir grapeMC --outName grapeMC --reference PN --vcf --giraffe --gfa --gbz --odgi --workDir /home/liuzhongjie/data/pangenome2/MC/tmp \
+--batchSystem slurm --consCores 20 --indexCores 20 --mgCores 20 --mapCores 20 
